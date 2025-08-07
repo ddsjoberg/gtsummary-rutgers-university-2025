@@ -1,6 +1,6 @@
 ---
 title: "Clinical Reporting with {gtsummary}"
-subtitle: "Rutgers University Satagopan Research Lab "
+subtitle: "Rutgers University Satagopan Research Lab"
 editor: source
 engine: knitr
 ---

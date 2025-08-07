@@ -378,23 +378,6 @@
     "text": "Thank you\n\n\n\n Ask on stackoverflow.com\n Use the gtsummary tag\n Hundreds of Qs already answered!\n\n danieldsjoberg.com\n @ddsjoberg.bsky.social\n linkedin.com/in/ddsjoberg\n github.com/ddsjoberg\n\n\n\n\n\nClinical Reporting with {gtsummary} (https://www.danieldsjoberg.com/gtsummary-rutgers-university-2025/)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Clinical Reporting with {gtsummary}",
-    "section": "",
-    "text": "🗓️ April 17, 2025 | 11:00AM EST\n\n\nOverview\nThe gtsummary package provides an elegant and flexible way to create publication-ready summary tables in R. A critical part of the work of statisticians, data scientists, and analysts is summarizing data sets and regression models in R and publishing or sharing polished summary tables. The gtsummary package was created to streamline these everyday analysis tasks by allowing users to easily create reproducible summaries of data sets, regression models, survey data, and survival data with a simple interface and very little code. The package follows a tidy framework, making it easy to integrate with standard data workflows, and offers many table customization features through function arguments, helper functions, and custom themes.\n\n\nSlides\nView slides in full screen\n\n\n\nPresenter\n\nDaniel D. Sjoberg (he/him) is a Senior Principal Data Scientist at Genentech. Previously, he was a Lead Data Science Manager at the Prostate Cancer Clinical Trials Consortium, and a Senior Biostatistician at Memorial Sloan Kettering Cancer Center in New York City. He enjoys R package development, creating many packages available on CRAN, R-Universe, and GitHub. He’s a co-organizer of rainbowR (a community that supports, promotes and connects LGBTQ+ people who code in the R language) and of the R Medicine Conference. His research interests include adaptive methods in clinical trials, precision medicine, and predictive modeling. Daniel is the winner of the 2021 American Statistical Association (ASA) Innovation in Statistical Programming and Analytics award.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "slides/index.html",
-    "href": "slides/index.html",
-    "title": "Clinical Reporting with {gtsummary}",
-    "section": "",
-    "text": "danieldsjoberg.com\n @ddsjoberg.bsky.social\n linkedin.com/in/ddsjoberg\n github.com/ddsjoberg\n\n\n\n\n\n\n\n\n\n\n\n\n\nBegan to address reproducible issues while working in academia\nGoal was to build a package to summarize study results with code that was both simple and customizable\nFirst release in May 2019\n\n\n\n\n\n\n\n\nThe stats\n\n1,300,000+ installations from CRAN\n1100+ GitHub stars\n300+ contributors\n50+ code contributors\n\nWon the 2021 American Statistical Association (ASA) Innovation in Programming Award\nWon the 2024 Posit Pharma Table Contest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreate tabular summaries with sensible defaults but highly customizable\nTypes of summaries:\n\n“Table 1”-types\nCross-tabulation\nRegression models\nSurvival data\nSurvey data\nCustom tables\n\n\n\n\nReport statistics from {gtsummary} tables inline in R Markdown\nStack and/or merge any table type\nUse themes to standardize across tables\nChoose from different print engines\n\n\n\n\n\n\n\n\n\nThe trial data set is included with {gtsummary}\nSimulated data set of baseline characteristics for 200 patients who receive Drug A or Drug B\nVariables were assigned labels using the labelled package\n\n\nlibrary(gtsummary)\nlibrary(tidyverse)\nhead(trial) |&gt; gt::gt()\n\n\n\n\n\n\nChemotherapy Treatment\nAge\nMarker Level (ng/mL)\nT Stage\nGrade\nTumor Response\nPatient Died\nMonths to Death/Censor\n\n\n\n\nDrug A\n23\n0.160\nT1\nII\n0\n0\n24.00\n\n\nDrug B\n9\n1.107\nT2\nI\n1\n0\n24.00\n\n\nDrug A\n31\n0.277\nT1\nII\n0\n0\n24.00\n\n\nDrug A\nNA\n2.067\nT3\nIII\n1\n1\n17.64\n\n\nDrug A\n51\n2.767\nT4\nIII\n1\n1\n16.43\n\n\nDrug B\n39\n0.613\nT4\nI\n0\n1\n15.64\n\n\n\n\n\n\n\n\n\n\n\n\nThis presentation will use a subset of the variables.\nsm_trial &lt;-\n  trial |&gt; \n  select(trt, age, grade, response)\n\n\n\n\n\n\n\nVariable\nLabel\n\n\n\n\ntrt\nChemotherapy Treatment\n\n\nage\nAge\n\n\ngrade\nGrade\n\n\nresponse\nTumor Response"
-  },
-  {
     "objectID": "license.html",
     "href": "license.html",
     "title": "License",
@@ -402,6 +385,16 @@
     "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
     "crumbs": [
       "License"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Clinical Reporting with {gtsummary}",
+    "section": "",
+    "text": "🗓️ August 08, 20255 | 10:30AM EST\n\n\nOverview\nThe gtsummary package provides an elegant and flexible way to create publication-ready summary tables in R. A critical part of the work of statisticians, data scientists, and analysts is summarizing data sets and regression models in R and publishing or sharing polished summary tables. The gtsummary package was created to streamline these everyday analysis tasks by allowing users to easily create reproducible summaries of data sets, regression models, survey data, and survival data with a simple interface and very little code. The package follows a tidy framework, making it easy to integrate with standard data workflows, and offers many table customization features through function arguments, helper functions, and custom themes.\n\n\nSlides\nView slides in full screen\n\n\n\nPresenter\n\nDaniel D. Sjoberg (he/him) is a Senior Principal Data Scientist at Genentech. Previously, he was a Lead Data Science Manager at the Prostate Cancer Clinical Trials Consortium, and a Senior Biostatistician at Memorial Sloan Kettering Cancer Center in New York City. He enjoys R package development, creating many packages available on CRAN, R-Universe, and GitHub. He’s a co-organizer of rainbowR (a community that supports, promotes and connects LGBTQ+ people who code in the R language) and of the R Medicine Conference. His research interests include adaptive methods in clinical trials, precision medicine, and predictive modeling. Daniel is the winner of the 2021 American Statistical Association (ASA) Innovation in Statistical Programming and Analytics award.",
+    "crumbs": [
+      "Home"
     ]
   }
 ]

@@ -11,7 +11,7 @@
     "href": "slides/index.html#section",
     "title": "Clinical Reporting with {gtsummary}",
     "section": "",
-    "text": "How it started\n\n\nBegan to address reproducible issues while working in academia\nGoal was to build a package to summarize study results with code that was both simple and customizable\nFirst release in May 2019\n\n\n\n\nHow it’s going\n\n\nThe stats\n\n1,300,000+ installations from CRAN\n1100+ GitHub stars\n300+ contributors\n50+ code contributors\n\nWon the 2021 American Statistical Association (ASA) Innovation in Programming Award\nWon the 2024 Posit Pharma Table Contest"
+    "text": "How it started\n\n\nBegan to address reproducible issues while working in academia\nGoal was to build a package to summarize study results with code that was both simple and customizable\nFirst release in May 2019\n\n\n\n\nHow it’s going\n\n\nThe stats\n\n1.5M+ installations from CRAN\n1100+ GitHub stars\n300+ contributors\n50+ code contributors\n\nWon the 2021 American Statistical Association (ASA) Innovation in Programming Award\nWon the 2024 Posit Pharma Table Contest"
   },
   {
     "objectID": "slides/index.html#gtsummary-overview",

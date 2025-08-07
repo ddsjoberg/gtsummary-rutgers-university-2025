@@ -18,7 +18,7 @@
 ::: small
 -   The stats
 
-    -   [1,5M+ installations]{.emphasis} from CRAN
+    -   [1.5M+ installations]{.emphasis} from CRAN
     -   1100+ GitHub stars
     -   300+ contributors
     -   50+ code contributors

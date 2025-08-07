@@ -1,0 +1,52 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!slides/[0-9]*.qmd"
+    
+website:
+  page-navigation: true
+  title: "Clinical Reporting with {gtsummary}"
+  description: "GWU BSC R Users Group"
+  site-url: "https://www.danieldsjoberg.com/gtsummary-george-washington-university-2025/"
+  favicon: "images/gtsummary-logo.png"
+  
+  repo-url: https://github.com/ddsjoberg/gtsummary-george-washington-university-2025
+  repo-actions: [edit, issue]
+
+  open-graph: true
+  twitter-card:
+    creator: "@statistishdan"
+    image: "/images/two-hex-logo.png"
+
+  page-footer:
+    left: "This page is built with ❤️ and [Quarto](https://quarto.org/). Inspired by [@minebocek](https://twitter.com/minebocek)"
+    right: "&copy; Copyright 2022, Daniel D. Sjoberg"
+    background: "#5f6a72"
+
+  sidebar:
+    background: "#5f6a72"
+    logo: "images/gtsummary-logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/ddsjoberg/gtsummary-george-washington-university-2025
+        text: GitHub
+    style: docked
+    contents:
+     - href: index.qmd
+       text: Home
+     - href: license.qmd
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: true
+    code-copy: true
+    code-overflow: scroll
+    mainfont: "Atkinson Hyperlegible"
+    highlight-style: a11y
+
+editor: source
+

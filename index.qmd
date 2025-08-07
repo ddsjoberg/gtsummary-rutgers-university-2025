@@ -1,0 +1,55 @@
+---
+title: "Clinical Reporting with {gtsummary}"
+subtitle: "Rutgers University Satagopan Research Lab "
+editor: source
+engine: knitr
+---
+
+<!-- https://github.com/rstudio-conf-2022/teach-ds -->
+
+------------------------------------------------------------------------
+
+🗓️ August 08, 20255 \| 10:30AM EST
+
+------------------------------------------------------------------------
+
+# Overview
+
+The [**gtsummary**](https://www.danieldsjoberg.com/gtsummary/) package provides an elegant and flexible way to create publication-ready summary tables in **R**. 
+A critical part of the work of statisticians, data scientists, and analysts is summarizing data sets and regression models in R and publishing or sharing polished summary tables.
+The [**gtsummary**](https://www.danieldsjoberg.com/gtsummary/) package was created to streamline these everyday analysis tasks by allowing users to easily create reproducible summaries of data sets, regression models, survey data, and survival data with a simple interface and very little code.
+The package follows a tidy framework, making it easy to integrate with standard data workflows, and offers many table customization features through function arguments, helper functions, and custom themes.
+
+# Slides
+
+[View slides in full screen](/slides/index.html)
+
+```{=html}
+<iframe class="slide-deck" src="/slides/" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+# Presenter
+
+![](images/dan-circle.png){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Daniel D. Sjoberg" width="200"}
+
+[**Daniel D. Sjoberg**](https://www.danieldsjoberg.com/) (he/him) is a
+Senior Principal Data Scientist at Genentech. Previously, he was a Lead
+Data Science Manager at the Prostate Cancer Clinical Trials Consortium,
+and a Senior Biostatistician at Memorial Sloan Kettering Cancer Center
+in New York City. He enjoys R package development, creating many
+packages available on [CRAN](https://cran.r-project.org/web/packages/),
+[R-Universe](https://ddsjoberg.r-universe.dev/ui#packages), and
+[GitHub](https://github.com/ddsjoberg). He's a co-organizer of 
+[rainbowR](https://rainbowr.netlify.app/) (a community that supports, promotes 
+and connects LGBTQ+ people who code in the R language) and of the [R Medicine Conference](https://rconsortium.github.io/RMedicine_website/). 
+His research interests include
+adaptive methods in clinical trials, precision medicine, and predictive
+modeling. Daniel is the winner of the 2021 American Statistical
+Association (ASA) Innovation in Statistical Programming and Analytics
+award.
+
+[`r fontawesome::fa("link", fill = "#606060")`](https://www.danieldsjoberg.com/)
+[`r fontawesome::fa("bluesky", fill = "#606060")`](https://bsky.app/profile/ddsjoberg.bsky.social)
+[`r fontawesome::fa("linkedin", fill = "#606060")`](https://www.linkedin.com/in/ddsjoberg/)
+[`r fontawesome::fa("github", fill = "#606060")`](https://github.com/ddsjoberg/)
+

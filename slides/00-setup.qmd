@@ -1,0 +1,37 @@
+# Introduction
+
+```{r}
+#| echo: false
+#| cache: false
+library(gtsummary)
+library(tidyverse)
+
+declare_it <- function() {
+  cardx::ard_car_anova()
+  broom.helpers::tidy_plus_plus()
+}
+
+
+# fill for font awesome icons
+fa_fill <- "#606060"
+```
+
+## Daniel D. Sjoberg
+
+::: {.columns .v-center-container}
+::: {.column width="60%"}
+`r fontawesome::fa("link", fill = fa_fill)` [danieldsjoberg.com](https://www.danieldsjoberg.com/)
+
+`r fontawesome::fa("bluesky", fill = fa_fill)` [\@ddsjoberg.bsky.social](https://bsky.app/profile/ddsjoberg.bsky.social)
+
+`r fontawesome::fa("linkedin", fill = fa_fill)` [linkedin.com/in/ddsjoberg](https://www.linkedin.com/in/ddsjoberg/)
+
+`r fontawesome::fa("github", fill = fa_fill)` [github.com/ddsjoberg](https://github.com/ddsjoberg/)
+:::
+
+::: {.column width="40%"}
+![](images/dan-fire-island-circle.png)
+:::
+:::
+
+

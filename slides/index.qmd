@@ -37,3 +37,11 @@ cache: false
 
 {{< include 09-summary.qmd >}}
 
+
+```{r}
+#| echo: false
+blank_foo <- function() {
+  car::Anova()
+  parameters::ci()
+}
+```

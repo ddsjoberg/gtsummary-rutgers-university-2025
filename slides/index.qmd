@@ -13,8 +13,8 @@ format:
 execute:
   echo: true
   output: asis
-  freeze: auto
-cache: true
+  freeze: false
+cache: false
 ---
 
 {{< include 00-setup.qmd >}}
